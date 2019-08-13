@@ -268,7 +268,8 @@ def get_url(uid):
 
 selfClosingTags = ('br', 'hr', 'nobr', 'ref', 'references', 'nowiki')
 
-placeholder_tags = {'math': 'formula', 'code': 'codice'}
+#placeholder_tags = {'math': 'formula', 'code': 'codice'}
+placeholder_tags = {}
 
 
 def normalizeTitle(title):
